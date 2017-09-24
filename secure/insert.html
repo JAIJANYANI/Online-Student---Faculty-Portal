@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>New User Registration</title>
+</head>
+<body>
+<form action="insert.php" method="post">
+    <p>
+        <label for="id">ID:</label>
+        <input type="int" name="id" id="id">
+    </p>
+	<p>
+        <label for="username">Email:</label>
+        <input type="text" name="username" id="username">
+    </p>
+	<p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+    </p>
+    <p>
+        <label for="role">Role:</label>
+        <input type="int" name="role" id="role">
+    </p>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+    </p>
+	<p>For Student , Role = 1</p>
+	<p>For Teacher , Role = 2</p>
+	<p>For Admin , Role = 3</p>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
